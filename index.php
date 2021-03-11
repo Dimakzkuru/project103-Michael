@@ -111,7 +111,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" src="/assets/image/Michael.jpeg" alt="Card image cap">
+                                <img class="card-img-top" src="/assets/image/Michael.jpg" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Michael Dimakiling</h5>
                                     <p class="card-text">I am still trying to learn programming. You can check out my about me page here.</p>
