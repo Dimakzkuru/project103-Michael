@@ -96,7 +96,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <h2>RODMAN LEE</h2>
 <p>I like Girls. Click image if you like girls. Click <a href="/">Here</a> to return to Home Page</p>
-<img id="myImg" src="../project102/assets/image/rodman-about.jpg" alt="rodman-about" style="width:100%;max-width:300px">
+<img id="myImg" src="/assets/image/rodman-about.jpg" alt="rodman-about" style="width:100%;max-width:300px">
 
 <div id="myModal" class="modal">    
   <span class="close">&times;</span>
@@ -105,21 +105,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </div>
 
 <script>
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal")
 
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+var img = document.getElementById("myImg")
+var modalImg = document.getElementById("img01")
+var captionText = document.getElementById("caption")
 img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+  modal.style.display = "block"
+  modalImg.src = this.src
+  captionText.innerHTML = this.alt
 }
 
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close")[0]
 
 span.onclick = function() { 
-  modal.style.display = "none";
+  modal.style.display = "none"
 }
 </script>
 

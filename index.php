@@ -97,13 +97,13 @@
 
                         <div class="col-md-4">
                             <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" src="../project102/assets/image/rodman-thumbnail.png" alt="Card image cap">
+                                <img class="card-img-top" src="/assets/image/rodman-thumbnail.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Rodman Lee</h5>
                                     <p class="card-text">I'm Rodman and I like girls! Want to know more? Click View!</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
-                                            <a href="../project102/rodman.php" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                                            <a href="/rodman.php" type="button" class="btn btn-sm btn-outline-secondary">View</a>
                                         </div>
                                     </div>
                                 </div>
